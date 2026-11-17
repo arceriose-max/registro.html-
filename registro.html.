@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Registro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Crear cuenta</h1>
+  <form id="registerForm">
+    <label>Usuario:</label>
+    <input type="text" id="newUser"><br>
+    <label>Correo:</label>
+    <input type="email" id="email"><br>
+    <label>Contraseña:</label>
+    <input type="password" id="newPass"><br>
+    <label>Confirmar contraseña:</label>
+    <input type="password" id="confirmPass"><br>
+    <button type="submit">Registrarme</button>
+  </form>
+  <script src="register.js"></script>
+</body>
+</html>
